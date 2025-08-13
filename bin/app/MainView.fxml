@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller">
+   <children>
+      <AnchorPane prefHeight="318.0" prefWidth="486.0">
+         <children>
+            <Button layoutX="88.0" layoutY="124.0" mnemonicParsing="false" onAction="#GCButtonClick" prefHeight="26.0" prefWidth="116.0" text="Buy" />
+            <ImageView fitHeight="86.0" fitWidth="83.0" layoutX="36.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/pranj/Downloads/Grilled_Cheese.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="83.0" fitWidth="83.0" layoutX="163.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/pranj/Downloads/Grilled_Cheese.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="83.0" fitWidth="83.0" layoutX="291.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/pranj/Downloads/coke.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="popular1" fitHeight="103.0" fitWidth="106.0" layoutX="408.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="83.0" fitWidth="83.0" layoutX="37.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/pranj/Downloads/root_beer.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="83.0" fitWidth="83.0" layoutX="163.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/pranj/Downloads/sprite.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="83.0" fitWidth="83.0" layoutX="291.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/pranj/Downloads/water.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="popular2" fitHeight="103.0" fitWidth="103.0" layoutX="408.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true" />
+            <Button layoutX="61.0" layoutY="306.0" mnemonicParsing="false" onAction="#RBButtonClick" text="Buy" />
+            <Button layoutX="186.0" layoutY="306.0" mnemonicParsing="false" onAction="#SpriteButtonClick" text="Buy" />
+            <Button layoutX="315.0" layoutY="306.0" mnemonicParsing="false" onAction="#WaterButtonClick" text="Buy" />
+            <Text fill="#aaac48" fontSmoothingType="LCD" layoutX="77.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pranjol's Grilled Cheese Food Truck">
+               <font>
+                  <Font name="Freestyle Script" size="40.0" />
+               </font>
+            </Text>
+            <Button layoutX="314.0" layoutY="125.0" mnemonicParsing="false" onAction="#CokeButtonClick" text="Buy" />
+            <Button layoutX="584.0" layoutY="352.0" mnemonicParsing="false" onAction="#AdminButtonClick" prefHeight="55.0" prefWidth="70.0" text="Admin" textOverrun="CLIP" />
+            <Line endX="540.5999755859375" endY="-1.1920929132713809E-8" startX="540.5999755859375" startY="421.60003662109375" />
+            <Text fill="#4a4b2b" fontSmoothingType="LCD" layoutX="101.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$3">
+               <font>
+                  <Font name="Impact" size="15.0" />
+               </font>
+            </Text>
+            <Text fill="#4a4b2b" fontSmoothingType="LCD" layoutX="228.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$3">
+               <font>
+                  <Font name="Impact" size="15.0" />
+               </font>
+            </Text>
+            <Text fill="#4a4b2b" fontSmoothingType="LCD" layoutX="356.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2">
+               <font>
+                  <Font name="Impact" size="15.0" />
+               </font>
+            </Text>
+            <Text fill="#4a4b2b" fontSmoothingType="LCD" layoutX="102.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2">
+               <font>
+                  <Font name="Impact" size="15.0" />
+               </font>
+            </Text>
+            <Text fill="#4a4b2b" fontSmoothingType="LCD" layoutX="228.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2">
+               <font>
+                  <Font name="Impact" size="15.0" />
+               </font>
+            </Text>
+            <Text fill="#4a4b2b" fontSmoothingType="LCD" layoutX="356.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$1">
+               <font>
+                  <Font name="Impact" size="15.0" />
+               </font>
+            </Text>
+            <Button layoutX="621.0" layoutY="105.0" mnemonicParsing="false" onAction="#ResetButtonClick" prefHeight="47.0" prefWidth="62.0" text="CLEAR" textOverrun="CLIP">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Label fx:id="welcomeText" layoutX="561.0" layoutY="22.0" prefHeight="83.0" prefWidth="126.0" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold Italic" size="25.0" />
+               </font>
+            </Label>
+            <Button layoutX="548.0" layoutY="105.0" mnemonicParsing="false" onAction="#PurchaseButtonClick" prefHeight="47.0" prefWidth="62.0" text="PURCHASE" textOverrun="CLIP">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Label fx:id="gcLabel" layoutX="587.0" layoutY="201.0" text="32" />
+            <Label fx:id="cokeLabel" layoutX="612.0" layoutY="230.0" text="16" />
+            <Label fx:id="rbLabel" layoutX="612.0" layoutY="257.0" text="16" />
+            <Label fx:id="spriteLabel" layoutX="612.0" layoutY="286.0" text="16" />
+            <Label fx:id="waterLabel" layoutX="612.0" layoutY="313.0" text="16" />
+            <Text fontSmoothingType="LCD" layoutX="575.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock:">
+               <font>
+                  <Font name="Times New Roman" size="26.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="29.0" fitWidth="36.0" layoutX="551.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/pranj/Downloads/Grilled_Cheese.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="579.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/pranj/Downloads/coke.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="579.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/pranj/Downloads/root_beer.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="47.0" fitWidth="29.0" layoutX="579.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/pranj/Downloads/sprite.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="47.0" fitWidth="29.0" layoutX="579.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/pranj/Downloads/water.png" />
+               </image>
+            </ImageView>
+            <Text fill="#4a4b2b" fontSmoothingType="LCD" layoutX="411.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Most Popular Drink" textAlignment="CENTER" wrappingWidth="96.55181884765625">
+               <font>
+                  <Font name="Lucida Bright" size="15.0" />
+               </font>
+            </Text>
+            <Text fill="#4a4b2b" fontSmoothingType="LCD" layoutX="411.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2nd Popular Drink" textAlignment="CENTER" wrappingWidth="96.55181884765625">
+               <font>
+                  <Font name="Lucida Bright" size="15.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="29.0" fitWidth="36.0" layoutX="621.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/pranj/Downloads/Grilled_Cheese.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="gcLabel2" layoutX="658.0" layoutY="200.0" text="32" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
