@@ -21,8 +21,11 @@ availability" as this would leave 6 slots to just 3 drinks, so I instead posted 
 - The least popular drink feature will remain empty if there is a tie, so there is no bias towards any of the drinks
 - Return button back to the food truck menu, where it stores the data of previous orders.
 
-Most applied files:
+Most applied/useful files for this project:
+(within src/app)
 - controller.java, adminscreen.fxml, mainview.fxml, styles.css (front-end)
+
+lib folder contains the jar files
 
 
 Compile:
